@@ -1,77 +1,37 @@
 body {
-    background-color: #2f8b48; /* Color verde */
+	background-color: #61826D;
     font-family: Arial, sans-serif;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  h1 {
-    margin: 0;
-    color: #FFF;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    background-color: #FFF;
-    border-radius: 10px;
+	text-align: center;
+}
+
+.logo-container {
     margin-bottom: 20px;
-    padding: 10px;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    padding: 5px 0;
-  }
+}
 
-  .container {
-    max-width: 600px;
+.logo {
+    display: block;
     margin: 0 auto;
-    text-align: center;
-    padding: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
-.payment-methods {
+h1 {
+    color: #EED3A5;
+}
+
+#paymentMethods {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.payment-button {
-    padding: 10px 20px;
-    margin: 0 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
+.paymentMethod {
+    padding: 10px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.payment-button:hover {
-    background-color: #1a3a5c;
-}
-
-.payment-methods div {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.payment-methods img {
-  width: 100px; /* Ajusta el tamaño de las imágenes según sea necesario */
-  margin-right: 10px;
+.paymentMethod:hover {
+    background-color: #f0f0f0;
 }
