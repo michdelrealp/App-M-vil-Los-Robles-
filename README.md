@@ -11,4 +11,4 @@ Se ha agregado el código correspondiente de la pantalla de Interfaz de Usuario 
 
 17/04/2024 <br>
 Se a realizado una Carpeta donde podrán encontrar en formato .png los Diseño de Interfaz de Usuario, tanto del primer Sprint, como el avance de la segunda subtarea 2.1 del Segundo Sprint. 
-Se ha agregado el código del primer Sprint en una carpeta aparte para su mejor comprension. 
+<br>Se ha agregado el código del primer Sprint en una carpeta aparte para su mejor comprension. 
