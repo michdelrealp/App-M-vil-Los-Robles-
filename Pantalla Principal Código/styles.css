@@ -1,0 +1,39 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+	  background-color: #61826D;
+    }
+
+    .header {
+      background-color: #61826D;
+      color: white;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+
+    .nav-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px;
+    }
+
+    .nav-button {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+	
