@@ -2,7 +2,7 @@ body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-	  background-color: #61826D;
+	    background-color: #61826D;
     }
 
     .header {
@@ -14,26 +14,57 @@ body {
       align-items: center;
     }
 
-    .header img {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
+    .header h1,
+    .header p {
+      margin: 0;
     }
 
+    .header img {
+      height: 100px; /* Aumenta el tamaño de la imagen */
+      width: 100px; /* Aumenta el tamaño de la imagen */
+      border-radius: 50%;
+      position: absolute; /* Coloca la imagen en una posición absoluta */
+      top: 0; /* Coloca la imagen en la parte superior de la página */
+      left: 50%; /* Mueve la imagen hacia la izquierda la mitad de su ancho */
+      transform: translateX(-50%); /* Centra la imagen en el centro horizontal */
+    }
     .nav-buttons {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-      padding: 16px;
+      flex-direction: column;
+      background-color: white;
+      width: 200px;
+      margin: 0 auto;
+    }
+    
+    .nav-button-group {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .nav-button {
+      color: black;
+      text-decoration: none;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    
+    .nav-button-group.nav-button {
+      margin-bottom: 0;
+    }
+    
+    .nav-button-group +.nav-button {
+      margin-top: 10px;
+    }
+    .nav-button:hover {
+      background-color: #f0f0f0;
     }
 
-    .nav-button {
-      background-color: #007BFF;
-      color: white;
-      padding: 12px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 16px;
+    .nav-button:last-child {
+      padding: 20px; /* Aumenta el padding vertical y horizontal */
+      font-size: 1.2em; /* Aumenta el tamaño de la fuente */
     }
+
+
+	
 	
