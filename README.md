@@ -15,3 +15,6 @@ Se a realizado una Carpeta donde podrán encontrar en formato .png los Diseño d
 
 18/04/2024 <br>
 Se realiza una carpeta individual para ir actualizando el código de lo que sería la pantalla principal donde se abordarán las notificaciones. 
+
+23/04/2024 <br>
+Se ha actualizado el código index y css de la pantalla principal. Se han hechos cambios significativos al anterior código para acercarnos más al diseño realizado en el segundo Sprint. 
