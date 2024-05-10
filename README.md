@@ -18,3 +18,6 @@ Se realiza una carpeta individual para ir actualizando el código de lo que ser�
 
 23/04/2024 <br>
 Se ha actualizado el código index y css de la pantalla principal.Se encontrará en la carpeta de "Pantalla Principal Codigo", se han realizado cambios significativos al anterior código para acercarnos más al diseño de usuario realizado en el segundo Sprint. 
+
+08/05/2024 <br>
+Se han realizado los cambios solicitados en las reuniones de modificaciones. Se ha añadido una nueva carpeta llamada "Pago de cuotas actualizado" en el que se agrega el código correspondiente con las nuevas pasarelas de pago añadidas y un leve cambio en su modificación de CSS.
