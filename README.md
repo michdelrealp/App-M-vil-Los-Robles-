@@ -21,3 +21,6 @@ Se ha actualizado el código index y css de la pantalla principal.Se encontrará
 
 08/05/2024 <br>
 Se han realizado los cambios solicitados en las reuniones de modificaciones. Se ha añadido una nueva carpeta llamada "Pago de cuotas actualizado" en el que se agrega el código correspondiente con las nuevas pasarelas de pago añadidas y un leve cambio en su modificación de CSS.
+
+Actualización:
+Se han realizado cambios en el código fuente del proyecto, para poder realizar la implementación de las páginas.
